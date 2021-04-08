@@ -1,0 +1,35 @@
+/*
+          New Perspectives on HTML5 and CSS3, 7th Edition
+          Assignment 3
+          
+          Sum Numbers
+          Author: Dylan Chohan
+          Date: April 1, 2021  
+      
+          Filename: Chohan-300314983-assignment3.css
+         */
+
+
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+legend{
+    background-color: purple;
+    color: white;
+}
+
+fieldset{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: blue;
+    max-width: 50%;
+}
+
+label{
+    color: white;
+}
