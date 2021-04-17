@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+          New Perspectives on HTML5 and CSS3, 7th Edition
+          Assignment 3
+          
+          Sum Numbers
+          Author: Dylan Chohan
+          Date: April 1, 2021  
+      
+          Filename: Chohan-300314983-assignment3.html
+         -->
+
+    <link href="css/Chohan-300314983-assignment3.css" rel="stylesheet">
+    <meta name="author" content="RG">
+    <meta charset="UTF-8">
+    <script src="script/Chohan-300314983-assignment3.js"></script>
+    <title>JavaScript Arithmetic Operator</title>
+</head>
+
+<body>
+    <header>
+        Assignment 3: JavaScript Arithmetic Operator
+    </header>
+
+    <!--This will create two fieldsets. One for the output and one for all the input-->
+    <section>
+        <form name="Operator" id="Input" action="" method="GET">
+
+            <!--OUTPUT-->
+            <fieldset>
+                <legend>My Calculator</legend>
+                <textarea name="output" id="numPlace" cols="30" rows="10"></textarea>
+            </fieldset>
+
+            <!--INPUT-->
+            <fieldset>
+                <legend>Input</legend>
+
+                <label>OPERANDS: </label>
+                <input type="text" id="val1" name="fname">
+                <input type="text" id="val2" name="fname"><br>
+
+                <label>OPERATORS: </label>
+                <input type="button" name="sum" value="+" onclick="AddValue()">
+                <input type="button" name="product" value="x" onclick="ProductValue()">
+                <input type="button" name="divide" value="/" onclick="DivideValue()">
+                <input type="button" name="reset" value="clear" onclick="ClearValue()">
+            </fieldset>
+
+        </form>
+    </section>
+</body>
+
+</html>
